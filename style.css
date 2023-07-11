@@ -33,4 +33,48 @@ margin-top:47px;
 }
 .click1:hover{
     background-color:burlywood;
+ }
+ .mid_upper_h1{
+    height: 53px;
+    width: 306px;
+    margin-left:675px;
+ }
+ .mid_upper_h4{
+    width: 594px;
+    height: 60px;
+    margin-left: 556px ;
 }
+.mid_div_mid{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+ }
+ .f1{background-color: rebeccapurple;
+height: 430px;}
+ 
+ .f2{background-color: antiquewhite;
+height: 430px;}
+ .f3{background-color: yellowgreen;
+height: 430px;}
+ .f1_h3{
+    height: 40px;
+    width: 181px;
+    margin-top: 10px;
+    margin-left: 70px;
+    text-decoration: underline;
+ }
+ .f2_h2{
+    height:40px;
+    width:181px;
+    margin-top:10px ;
+    margin-left:70px;
+    text-decoration: underline;
+ }
+ .f3_h3{
+    height: 40px;
+    width: 181px;
+    margin-top:10px ;
+    margin-left:70px;
+    text-decoration: underline;
+ }
+ 
