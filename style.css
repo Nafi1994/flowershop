@@ -1,80 +1,240 @@
-.header_div{
-height:850px;
-width:1920px;
-display: flex;
-flex-direction: row;
-background-color: pink;
+.header_div {
+    height: 850px;
+    width: 1675px;
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
 }
 
-.header_tittle{
-margin-top:197px;
-margin-left:240px;
+.header_tittle {
+    margin-top: 197px;
+    margin-left: 240px;
 }
 
-.header_img{
-height:800px;
-width:635px;
-margin-left:467px;
-margin-top:47px;
+.header_img {
+    height: 800px;
+    width: 635px;
+    margin-left: 467px;
+    margin-top: 47px;
 }
-.text1{
-    font-size: 67px;
+
+.text1 {
+    font-size: 44px;
 }
-.headerh4{
+
+.headerh4 {
     font-weight: 200px;
     color: grey;
 }
-.click1{
+
+.click1 {
     width: 177px;
     height: 64px;
-    color:whitesmoke;
-    background-color:palevioletred;
-    text-decoration:solid;
+    color: whitesmoke;
+    background-color: palevioletred;
+    text-decoration: solid;
 }
-.click1:hover{
-    background-color:burlywood;
- }
- .mid_upper_h1{
+
+.click1:hover {
+    background-color: burlywood;
+}
+
+.mid_upper_h1 {
     height: 53px;
     width: 306px;
-    margin-left:675px;
- }
- .mid_upper_h4{
+    margin-left: 675px;
+}
+
+.mid_upper_h4 {
     width: 594px;
     height: 60px;
-    margin-left: 556px ;
+    margin-left: 556px;
 }
-.mid_div_mid{
+
+.mid_div_mid {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-around;
- }
- .f1{background-color: rebeccapurple;
-height: 430px;}
- 
- .f2{background-color: antiquewhite;
-height: 430px;}
- .f3{background-color: yellowgreen;
-height: 430px;}
- .f1_h3{
+}
+
+.f1 {
+    background-color: rebeccapurple;
+    height: 430px;
+}
+
+.f2 {
+    background-color: antiquewhite;
+    height: 430px;
+}
+
+.f3 {
+    background-color: yellowgreen;
+    height: 430px;
+}
+
+.f1_h3 {
     height: 40px;
     width: 181px;
     margin-top: 10px;
     margin-left: 70px;
     text-decoration: underline;
- }
- .f2_h2{
-    height:40px;
-    width:181px;
-    margin-top:10px ;
-    margin-left:70px;
-    text-decoration: underline;
- }
- .f3_h3{
+}
+
+.f2_h2 {
     height: 40px;
     width: 181px;
-    margin-top:10px ;
-    margin-left:70px;
+    margin-top: 10px;
+    margin-left: 70px;
     text-decoration: underline;
- }
- 
+}
+
+.f3_h3 {
+    height: 40px;
+    width: 181px;
+    margin-top: 10px;
+    margin-left: 70px;
+    text-decoration: underline;
+}
+
+.mid_lower {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    background-color: rgb(184, 169, 169);
+    padding-top: 98px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+    border-radius: 25px;
+    width: 80%;
+    margin-left: 170px;
+}
+
+.f4_h3 {
+    margin-left: -92px;
+}
+
+.f5_h3 {
+    margin-left: -92px;
+}
+
+.f6_h3 {
+    margin-left: -30px;
+}
+
+.sign_up {
+    height: 490px;
+    width: 1700px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 212, 219);
+    padding: 100px;
+    /* margin: ; */
+    margin-top: 45px;
+    justify-content: space-around;
+}
+
+.sign_up_button {
+    background-color: rgb(246, 80, 108);
+    height: 40px;
+    width: 100px;
+    color: white;
+    border-radius: 8px;
+    margin-left: 202px;
+}
+
+.off_h1 {
+    color: rgb(238, 12, 12);
+}
+
+.sing_up_text_h1 {
+    margin-left: 72px;
+}
+
+.content {
+    margin-left: 65px;
+}
+
+.instagram_images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.instagram_content_h1 {
+    margin-left: 775px;
+}
+
+.instagram_content_h3 {
+    margin-left: 408px;
+}
+
+.subscribe {
+    padding: 80px;
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-image: url("Flower Asset/Rectangle\ 9.png");
+    background-size: cover;
+}
+
+.input_cls {
+    padding: 15px;
+    /* height: 64px; */
+    width: 700px;
+    border-radius: 4px;
+    margin-left: 200px;
+}
+
+.btn_cls {
+    background-color: rgb(250, 18, 18);
+    height: 48px;
+    width: 115px;
+    margin-left: 10px;
+    border-radius: 4px;
+    color: white;
+}
+.subscribe{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+.deal1 {
+    /* margin-left: 500px;
+    margin-top: 300px; */
+}
+
+.deal2 {
+    /* margin-left: 400px;
+    margin-top: 350px; */
+}
+
+.sib_mid_div{
+    display: flex;
+    flex-direction: row;
+}
+.footer{
+    margin-top: 40px;
+    background-color: black;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.flower{
+    color: palevioletred;
+}
+.shop{
+    color:whitesmoke;
+}
+.history{color: gainsboro;}
+.footer{
+    padding: 40px;
+}
+.end {
+    color: rgba(224, 224, 224, 0.59);
+  }
+
+  .footer_content_span{
+    margin-left: 107px;
+  }
