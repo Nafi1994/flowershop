@@ -1,0 +1,36 @@
+.header_div{
+height:850px;
+width:1920px;
+display: flex;
+flex-direction: row;
+background-color: pink;
+}
+
+.header_tittle{
+margin-top:197px;
+margin-left:240px;
+}
+
+.header_img{
+height:800px;
+width:635px;
+margin-left:467px;
+margin-top:47px;
+}
+.text1{
+    font-size: 67px;
+}
+.headerh4{
+    font-weight: 200px;
+    color: grey;
+}
+.click1{
+    width: 177px;
+    height: 64px;
+    color:whitesmoke;
+    background-color:palevioletred;
+    text-decoration:solid;
+}
+.click1:hover{
+    background-color:burlywood;
+}
