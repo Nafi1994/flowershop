@@ -1,6 +1,10 @@
+body{
+    padding: 0;
+    margin: 0;
+}
 .header_div {
     height: 850px;
-    width: 1675px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     background-color: pink;
@@ -102,12 +106,10 @@
     justify-content: space-around;
     margin-top: 10px;
     background-color: rgb(184, 169, 169);
-    padding-top: 98px;
-    padding-left: 20px;
-    padding-bottom: 100px;
+    padding: 100px;
     border-radius: 25px;
-    width: 80%;
-    margin-left: 170px;
+    /* margin-left: 170px; */
+
 }
 
 .f4_h3 {
@@ -124,7 +126,7 @@
 
 .sign_up {
     height: 490px;
-    width: 1700px;
+
     display: flex;
     flex-direction: row;
     background-color: rgb(255, 212, 219);
